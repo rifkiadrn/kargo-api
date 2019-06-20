@@ -9,8 +9,8 @@ import (
 )
 
 const (
-	JobsJSON = "jobs.json"
-	BidsJSON = "bids.json"
+	JobsJSON = "./jobs.json"
+	BidsJSON = "./bids.json"
 )
 
 type Repository interface {

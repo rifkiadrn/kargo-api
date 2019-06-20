@@ -1,8 +1,6 @@
 package processor
 
 import (
-	"fmt"
-
 	"github.com/kargo-api/models"
 	"github.com/kargo-api/repository"
 )
@@ -30,9 +28,6 @@ func (proc *processor) GetSortedJobs() ([]models.Job, error) {
 		return sortedJobs, err
 	}
 	quickSortJobs(&unsortedJob, 0, len(unsortedJob)-1)
-	for index := 0; index < len(unsortedJob); index++ {
-		fmt.Println(unsortedJob[index])
-	}
 	return unsortedJob, nil
 }
 
@@ -44,17 +39,11 @@ func (proc *processor) GetSortedBids(jobID int64) ([]models.Bid, error) {
 		return sortedBids, err
 	}
 	quickSortBids(&unsortedBid, 0, len(unsortedBid)-1)
-	for index := 0; index < len(unsortedBid); index++ {
-		fmt.Println(unsortedBid[index])
-	}
 	return unsortedBid, nil
 }
 
 func quickSortJobs(unsortedJob *[]models.Job, p int, r int) []models.Job {
 	var sortedJobs []models.Job
-	// for index := 0; index < len(unsortedJob); index++ {
-	// 	fmt.Println(unsortedJob[index])
-	// }
 	if p < r {
 		pivotIdx := partition(unsortedJob, p, r)
 		quickSortJobs(unsortedJob, p, pivotIdx-1)
@@ -81,9 +70,6 @@ func partition(jobs *[]models.Job, low, high int) int {
 
 func quickSortBids(unsortedBids *[]models.Bid, p int, r int) []models.Bid {
 	var sortedBids []models.Bid
-	// for index := 0; index < len(unsortedJob); index++ {
-	// 	fmt.Println(unsortedJob[index])
-	// }
 	if p < r {
 		pivotIdx := partitionBid(unsortedBids, p, r)
 		quickSortBids(unsortedBids, p, pivotIdx-1)
