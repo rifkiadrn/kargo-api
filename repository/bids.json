@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "price": 1000,
+        "vehicle": "pickup",
+        "description": "",
+        "job_id": 1,
+        "transporter_id": 1
+    },
+    {
+        "id": 2,
+        "price": 2000,
+        "vehicle": "cdd",
+        "description": "",
+        "job_id": 1,
+        "transporter_id": 2
+    },
+    {
+        "id": 3,
+        "price": 1000,
+        "vehicle": "pickup",
+        "description": "",
+        "job_id": 1,
+        "transporter_id": 3
+    },
+    {
+        "id": 4,
+        "price": 1000,
+        "vehicle": "pickup",
+        "description": "",
+        "job_id": 1,
+        "transporter_id": 3
+    },
+    {
+        "id": 5,
+        "price": 1000,
+        "vehicle": "pickup",
+        "description": "",
+        "job_id": 1,
+        "transporter_id": 3
+    }
+]

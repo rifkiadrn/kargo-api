@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "origin": "Jakarta",
+        "destination": "Surabaya",
+        "shipment_date": "2019-07-20T13:00:00Z",
+        "description": "",
+        "budget": 1000,
+        "shipper_id": 1
+    },
+    {
+        "id": 2,
+        "origin": "Jakarta",
+        "destination": "Solo",
+        "shipment_date": "2019-06-21T13:00:00Z",
+        "description": "",
+        "budget": 1000,
+        "shipper_id": 1
+    },
+    {
+        "id": 3,
+        "origin": "Jakarta",
+        "destination": "Papua",
+        "shipment_date": "2019-08-21T14:00:00Z",
+        "description": "",
+        "budget": 1000,
+        "shipper_id": 1
+    },
+    {
+        "id": 4,
+        "origin": "Padang",
+        "destination": "Palembang",
+        "shipment_date": "2019-05-21T12:00:00Z",
+        "description": "",
+        "budget": 1000,
+        "shipper_id": 2
+    },
+    {
+        "id": 5,
+        "origin": "Medan",
+        "destination": "Bandung",
+        "shipment_date": "2019-03-21T13:00:00Z",
+        "description": "",
+        "budget": 1000,
+        "shipper_id": 3
+    }
+]
